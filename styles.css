@@ -1,0 +1,53 @@
+body{
+  display:flex;
+}
+#navbar{
+width:25%;
+height:100%;
+position:fixed;
+}
+#nav2{
+  width:30%;
+}
+#main-doc{
+width:75%;
+margin:5vh;
+}
+header{
+  font-size:5vh;
+}
+p{
+  margin:2vh;
+  line-height:1.5;
+}
+code{
+  text-align:left;
+  display:block;
+  padding:15px;
+  width:70%;
+  background-color:#eeeeee;
+  line-height:1.5;
+}
+.main-section ul li{
+  line-height:1.5;
+}
+.nav-link{
+  text-decoration:none;
+  color:black;
+}
+.mynav li{
+  width:100%;
+  list-style-type:none;
+  padding:1.5vh;
+  border-top:solid;
+}
+#navbar header{
+  width:100%;
+  text-align:center;
+  padding:2vh;
+}
+@media(max-width:600px){
+body{
+  flex-direction:column;
+}
+}
